@@ -1,21 +1,22 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:               guiocm.github.io
-tagline:             ''
-description:         ''
-url:                 https://guiocm.github.io
-baseurl:             'https://guiocm.github.io'
-paginate:            5
+title:            Hic Rhodus hic saltus
+tagline:          ''
+description:      ''
+url:              https://guiocm.github.io
+baseurl:          /
 
-# About/contact
 author:
-  name:              Guilherme Marques
-  email:             guiocm@gmail.com
+  name:           'Guilherme Marques'
+  email:          'guiocm@gmail.com'
+
+paginate:         5
 
 # Custom vars
-version:             1.0.0
